@@ -1,0 +1,70 @@
+* {margin:0; padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'montserrat', sans-serif;
+    color:white;
+    background-image: url(hava.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.7); */
+    height: 100vh;
+}
+
+.header h1{
+    padding: 7px;
+    color:azure;
+    font-size: 60px;
+    text-shadow: 1px 8px rgba(0, 0, 0, 0.9);
+}
+
+
+.header{
+    padding: 50px;
+}
+
+
+.header input{
+    
+    width: 300px;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid ;
+    text-align: center;
+    font-size: 20px;
+    color: indigo;
+}
+
+.city{
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.sicaklik{
+    font-size: 60px;
+    padding: 1px;
+    text-shadow: 1px 3px rgba(0, 195, 255, 0.9);
+}
+
+.durum{
+    font-size: 20px;
+    padding: 1px;
+    color: rgb(255, 255, 110)
+    
+}
+
+.minmax{
+    font-size: 20px;
+    padding: 10px;
+    color:rgb(0, 0, 0)
+}
